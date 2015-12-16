@@ -10,12 +10,12 @@ Filter for various data types.
 
 ## Installation
 
-    $ npm install @micro-js/filter
+    $ npm install @f/filter
 
 ## Usage
 
 ```js
-var filter = require('@micro-js/filter')
+var filter = require('@f/filter')
 
 filter(isEven, [1, 2, 3, 4, 5]) // -> [2, 4]
 filter(isEven, {a: 1, b: 2, c: 3, d: 4, e: 5}) // -> {b: 2, d: 4}
@@ -44,5 +44,5 @@ MIT
 [git-url]: https://github.com/micro-js/filter
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/filter.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/filter
+[npm-image]: https://img.shields.io/npm/v/@f/filter.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/filter

@@ -1,5 +1,5 @@
 {
-  "name": "@micro-js/filter",
+  "name": "@f/filter",
   "description": "Filter for various data types.",
   "repository": "git://github.com/micro-js/filter.git",
   "version": "1.0.0",
@@ -9,10 +9,10 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "@micro-js/filter-array": "^1.0.0",
-    "@micro-js/filter-obj": "^1.0.0",
-    "@micro-js/is-array": "^1.0.0",
-    "@micro-js/is-object": "^1.0.0"
+    "@f/filter-array": "^1.0.0",
+    "@f/filter-obj": "^1.0.0",
+    "@f/is-array": "^1.0.0",
+    "@f/is-object": "^1.0.0"
   },
   "devDependencies": {
     "tape": "^4.2.2"
